@@ -176,3 +176,40 @@ summary:focus-visible {
   color: var(--paper);
   font-size: 1.4rem;
 }
+
+/* ---- Features Styles---- */
+.features {
+  padding-block: 3rem;
+}
+
+.features h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  letter-spacing: -0.025em;
+}
+
+.feature-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.feature {
+  padding-top: 1rem;
+  border-top: 2px solid var(--clay);
+}
+
+.feature-icon {
+  display: inline-grid;
+  width: 2.5rem;
+  height: 2.5rem;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--cream);
+  color: var(--clay);
+  font-size: 1.35rem;
+}
+
+.feature h3 {
+  margin-block: 0.75rem 0.4rem;
+  font-size: 1.25rem;
+}
