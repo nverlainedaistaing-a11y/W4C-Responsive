@@ -1,0 +1,42 @@
+:root {
+  --cream: #f7f2e8;
+  --pine: #173c32;
+  --clay: #a9462d;
+  --paper: #fffcf6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--pine);
+  font-family: 'PT Sans', sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3, p, figure, blockquote {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  line-height: 1.12;
+}
+
+a {
+  color: inherit;
+}
+
+a:focus-visible,
+summary:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 4px;
+}
+
+.container {
+  width: calc(100% - 2rem);
+  max-width: 70rem;
+  margin-inline: auto;
+}
