@@ -40,3 +40,69 @@ summary:focus-visible {
   max-width: 70rem;
   margin-inline: auto;
 }
+
+/* Header Styles */
+.site-header {
+  background: var(--paper);
+  border-bottom: 1px solid var(--pine);
+}
+
+.header-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-block: 1rem;
+}
+
+.brand {
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 2.75rem;
+  text-decoration: none;
+}
+
+.brand span {
+  color: var(--clay);
+}
+
+.mobile-menu summary {
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  margin-left: auto;
+  border: 1px solid var(--pine);
+  border-radius: 50%;
+  cursor: pointer;
+  list-style: none;
+}
+
+.mobile-menu summary::-webkit-details-marker {
+  display: none;
+}
+
+.hamburger {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.mobile-links {
+  display: grid;
+  gap: 0.5rem;
+  padding-block: 0.75rem;
+  text-align: right;
+}
+
+.desktop-links {
+  display: none;
+}
+
+.site-header nav a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-header nav a:hover {
+  text-decoration: underline;
+}
