@@ -41,7 +41,7 @@ summary:focus-visible {
   margin-inline: auto;
 }
 
-/* Header Styles */
+/* ---- Header Styles---- */
 .site-header {
   background: var(--paper);
   border-bottom: 1px solid var(--pine);
