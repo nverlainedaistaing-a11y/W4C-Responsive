@@ -258,3 +258,30 @@ summary:focus-visible {
   color: var(--clay);
   text-underline-offset: 0.2em;
 }
+
+/* ---- Tablette Media Queries ---- */
+@media (min-width: 768px) {
+  .container {
+    width: calc(100% - 4rem);
+  }
+
+  .header-row {
+    align-items: center;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .desktop-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .footer-row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
