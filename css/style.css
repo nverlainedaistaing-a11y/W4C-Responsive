@@ -213,3 +213,25 @@ summary:focus-visible {
   margin-block: 0.75rem 0.4rem;
   font-size: 1.25rem;
 }
+
+/* ---- Testimonial Styles---- */
+.testimonial {
+  padding-block: 3rem;
+  background: var(--pine);
+  color: var(--paper);
+  text-align: center;
+}
+
+.testimonial blockquote {
+  max-width: 34ch;
+  margin-inline: auto;
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  font-style: italic;
+  line-height: 1.35;
+}
+
+.testimonial figcaption {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
