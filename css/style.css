@@ -106,3 +106,73 @@ summary:focus-visible {
 .site-header nav a:hover {
   text-decoration: underline;
 }
+
+/* ---- Hero Styles---- */
+.hero {
+  padding-block: 2.5rem;
+  background: var(--cream);
+}
+
+.hero-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.hero-copy h1 {
+  max-width: 12ch;
+  font-size: clamp(2.7rem, 8vw, 5rem);
+  letter-spacing: -0.045em;
+}
+
+.hero-copy p {
+  max-width: 42ch;
+  margin-block: 1rem 1.5rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.35rem;
+  background: var(--clay);
+  color: var(--paper);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: var(--pine);
+}
+
+.roast-art {
+  display: grid;
+  min-height: 13rem;
+  place-items: center;
+  padding: 1.5rem;
+  background: var(--pine);
+  border-radius: 0.75rem;
+}
+
+.coffee-bag {
+  display: grid;
+  width: 9rem;
+  min-height: 11rem;
+  align-content: center;
+  gap: 0.35rem;
+  padding: 0.75rem;
+  border-block: 0.5rem double var(--pine);
+  background: var(--cream);
+  text-align: center;
+  transform: rotate(-5deg);
+}
+
+.bag-brand,
+.bag-detail {
+  font-size: 0.75rem;
+}
+
+.coffee-bag strong {
+  padding-block: 0.4rem;
+  background: var(--clay);
+  color: var(--paper);
+  font-size: 1.4rem;
+}
