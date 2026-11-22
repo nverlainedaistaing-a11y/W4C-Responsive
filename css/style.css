@@ -318,3 +318,45 @@ summary:focus-visible {
     grid-column: 2;
   }
 }
+
+/* ---- Desktop Media Queries ---- */
+@media (min-width: 1024px) {
+  .hero {
+    padding-block: 4.5rem;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1.1fr 1fr;
+    gap: 4rem;
+  }
+
+  .roast-art {
+    min-height: 22rem;
+  }
+
+  .coffee-bag {
+    width: 12rem;
+    min-height: 15rem;
+  }
+
+  .features {
+    padding-block: 4rem;
+  }
+
+  .feature-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem;
+  }
+
+  .feature {
+    display: block;
+  }
+
+  .feature h3 {
+    margin-block: 1rem 0.5rem;
+  }
+
+  .testimonial {
+    padding-block: 4rem;
+  }
+}
